@@ -1,0 +1,84 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 15px 45px;
+    min-width: 280px;
+}
+
+.header{
+    text-align: center;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.display{
+    padding: 20px;
+    margin: 5px;
+    width: 218px;
+    border: 1px solid black;
+    text-align: end;
+}
+.numpad{
+    display: flex;
+    flex-direction: column; 
+    gap: 1px;   
+}
+
+.first, .second, .third, .fourth{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1px ;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+}
+.backspace{
+    border-bottom: 0;
+    
+}
+.backspace.down{
+    border-top: 0;
+    border-bottom: 1px solid black;
+}
+/* .digits ul, .action ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.action ul{
+    gap: 12px;
+}
+
+.digits ul li, .action ul li{
+    text-align: center;
+    padding: 5px;
+    min-width: 20px;
+}
+
+*/
+
